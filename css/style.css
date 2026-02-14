@@ -1,0 +1,55 @@
+/* SEARCH BAR + LOGIN CART */
+.search-bar input {
+  width: 250px;
+  display:block;
+  margin-bottom:0.5rem;
+}
+
+/* NAV LINK UNDERLINE HOVER */
+.navbar-nav .nav-link {
+  position: relative;
+  transition: color 0.3s;
+  padding: 0.5rem 1rem !important;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0d6efd;
+  transition: width 0.3s;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+/* CAROUSEL IMAGE */
+.carousel-section img {
+  border-radius: 8px;
+}
+
+/* SLIDER CARDS */
+.simple-slider .card {
+  margin: 0 10px;
+  min-height: 100px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#f8f9fa;
+}
+
+/* GIFT CARD SLIDER */
+.gift-slider img {
+  cursor:pointer;
+}
+
+/* LIGHTBOX IMAGE */
+.gallery-slider a img {
+  cursor:pointer;
+  max-height: 200px;
+  object-fit: cover;
+}
